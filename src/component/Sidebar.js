@@ -38,14 +38,18 @@ function Sidebar({ Toggle }) {
                     <i className='bi bi-clipboard-data-fill fs-5 me-4'></i>
                     <span >Staff List</span>
                 </Link>
-                <a className='list-group-item py-2'>
+                <Link to='/ms' className='list-group-item py-2'>
                     <i className='bi bi-receipt fs-5 me-4'></i>
                     <span >Modify Schedule</span>
-                </a>
+                </Link>
                 <a className='list-group-item py-2'>
                     <i className='bi bi-gear fs-5 me-4'></i>
                     <span >Setting</span>
                 </a>
+                <Link to='/deactivate' className='list-group-item py-2'>
+                    <i className='bi bi-clipboard-data-fill fs-5 me-4'></i>
+                    <span >Deactivate User</span>
+                </Link>
                 
             </div>
 

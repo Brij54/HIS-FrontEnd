@@ -1,0 +1,56 @@
+.dropdown{
+    margin-left: 150px;
+    padding: 20px;
+}
+
+.btn-secondary {
+    background-color: rgb(214, 88, 214);
+    width:100px;
+    margin-top: 10px;
+}
+
+/* Deactivate.css */
+
+.form-label {
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 500px;
+}
+
+.form-control {
+    padding: 10px;
+    margin-top: 10px;
+    width: 50%;
+    margin-left: 500px;
+}
+
+.form-text {
+    margin-left: 500px;
+}/* .form-mb-3{
+    margin-left: 10px;
+} */
+
+.form-check .form-check-input {
+    margin-left: 480px;
+}
+
+.form-check .form-check-label {
+    margin-left: 10px;
+}
+
+.btn-primary {
+    margin-left: 500px;
+    margin-top: 10px;
+    padding: 7px;
+    width: 150px;
+}
+
+
+
+.email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 100px; /* Adjust as needed */
+    margin-top:-60px; /* Add space between navbar and form */
+}
